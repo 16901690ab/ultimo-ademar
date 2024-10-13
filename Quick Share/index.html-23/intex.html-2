@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculdade Formiga</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Formiga"> <!-- Substitua pela imagem do logo -->
+            <h1>Faculdade Formiga</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Acesso</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar...">
+                <button>🔍</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="categories">
+        <h2>Categorias</h2>
+        <div class="category-buttons">
+            <button class="active">Tecnologia</button>
+            <button>Educação</button>
+            <button>Saúde</button>
+            <button>Finanças</button>
+            <button>Case Studies</button>
+        </div>
+    </section>
+
+    <section class="courses">
+        <div class="course-card">
+            <img src="seguranca-de-dados.jpg" alt="Segurança de Dados"> <!-- Substitua com a imagem correta -->
+            <h3>Segurança de Dados</h3>
+            <p>R$ 100,00 - EAD</p>
+            <button class="inscreva-se">Inscreva-se</button>
+        </div>
+
+        <div class="course-card">
+            <img src="engenharia-de-software.jpg" alt="Engenharia de Software"> <!-- Substitua com a imagem correta -->
+            <h3>Engenharia de Software</h3>
+            <p>R$ 1.200,00 - Presencial</p>
+            <button class="inscreva-se">Inscreva-se</button>
+        </div>
+
+        <div class="course-card">
+            <img src="analise-e-desenvolvimento.jpg" alt="Análise e Desenvolvimento de Sistemas"> <!-- Substitua com a imagem correta -->
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <p>R$ 200,00 - Semipresencial</p>
+            <button class="inscreva-se">Inscreva-se</button>
+        </div>
+    </section>
+</body>
+</html>
